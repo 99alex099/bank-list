@@ -10,6 +10,9 @@ import java.sql.SQLException;
 import java.util.LinkedList;
 import java.util.List;
 
+//фасад
+//в чём фишка dao
+
 @Repository
 public class AccountDAOImpl extends CrudDAOImpl<Account> implements AccountDAO {
     private static final String QUERY_FIND_TOTAL_SUM_OF_ACCOUNTS =

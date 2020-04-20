@@ -22,7 +22,7 @@ public class MainController {
     }
 
     @GetMapping("/richest_user")
-    public String hello(Model model) {
+    public String richest(Model model) {
 
         TotalAccount totalAccount = accountService.findMaxTotalAccountSum();
 
